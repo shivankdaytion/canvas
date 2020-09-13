@@ -2,8 +2,6 @@ version: 0.2
 phases:
     install:
         commands:
-            - apt update
-            - apt -y upgrade
             - apt install -y nodejs
             - apt install -y npm
     pre_build:
