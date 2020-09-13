@@ -3,7 +3,7 @@ phases:
     install:
         commands:
             - apt update
-            - apt upgrade
+            - apt -y upgrade
             - apt install -y nodejs
             - apt install -y npm
     pre_build:
